@@ -1,5 +1,10 @@
 # ohmyzsh-config
 
+## ZSH
+
+Install or verify the installation of the zsh shell. See 
+[Installing ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#install-and-set-up-zsh-as-default)
+
 ## Configure the theme:
 
 Copy the theme into `~/.oh-my-zsh/themes`
