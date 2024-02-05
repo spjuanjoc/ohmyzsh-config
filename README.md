@@ -14,10 +14,6 @@ Then, run the installation command. See [Install](https://ohmyz.sh/#install)
 
 Copy the theme into `~/.oh-my-zsh/themes`
 
-## Configure the shell
-
-Copy the `.zshrc` to `~/`
-
 ## Install plugins
 
 plugin 'zsh-autosuggestions' 
@@ -29,4 +25,6 @@ Open a zsh terminal and run:
 
 `git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions`
 
+## Configure the shell
 
+Copy the `.zshrc` to `~/`
