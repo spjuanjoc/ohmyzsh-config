@@ -76,9 +76,9 @@ plugins=(
   git common-aliases colored-man-pages zsh-autosuggestions zsh-syntax-highlighting
 )
 
-# Workaround to Disable async git prompt
+# Disable async git prompt
 # https://github.com/ohmyzsh/ohmyzsh/issues/12328#issuecomment-2043492331
-zstyle ':omz:alpha:lib:git' async-prompt no
+zstyle ':omz:alpha:lib:git' async-prompt force
 
 
 source $ZSH/oh-my-zsh.sh
