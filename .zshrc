@@ -76,7 +76,7 @@ plugins=(
   git common-aliases colored-man-pages zsh-autosuggestions zsh-syntax-highlighting
 )
 
-# Disable async git prompt
+# Workaround to Disable async git prompt
 # https://github.com/ohmyzsh/ohmyzsh/issues/12328#issuecomment-2043492331
 zstyle ':omz:alpha:lib:git' async-prompt force
 
@@ -115,3 +115,7 @@ export PATH="$HOME/gems/bin:$PATH"
 
 # Enable Fuzzy finder
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Use conan from the python venv
+export PATH="$HOME/.venv/bin:$PATH"
+
